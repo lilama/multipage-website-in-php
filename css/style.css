@@ -1,14 +1,31 @@
+/*Minimize css*/
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
 /*Header style*/
 .nav-wrapper {
 	height: 160px!important;
-	background-color: #EFA00B;
+	background-color: #D65108;
 }
 
 .nav-wrapper ul a {
 	color: black;
 	margin-top: 40px;
+	font-size: 20px;
 }
 
 .nav-wrapper img {
 	margin: 30px 20px 20px 50px;
+}
+
+/*Footer style*/
+footer {
+	background-color: #D65108!important; 
 }
