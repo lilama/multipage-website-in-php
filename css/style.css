@@ -26,6 +26,32 @@
 }
 
 /*Footer style*/
-footer {
-	background-color: #ff7a28!important; 
+footer {background-color: #ff7a28!important;}
+
+footer ul {
+	display: flex;
+	align-items: baseline;
 }
+
+footer ul li {padding: 5px;}
+
+/*Main page*/
+.main-quote {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.carousel .carousel-item {
+	margin-top: -70px !important;
+	width:500px !important;
+}
+
+.description {
+	margin-left: 20px;
+}
+
+h2, h3 {    
+	color: #EFA00B;
+}
+

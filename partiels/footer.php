@@ -5,6 +5,7 @@
 		<title>La Chôm'hier</title>
 	</head>
 	<body>
+		<br><br>
 		<footer class="page-footer">
           <div class="container">
             <div class="row">
@@ -17,9 +18,9 @@
                 <ul>
                   <li><a class="black-text text-lighten-3" href="#!"><img width='80px' src="img/actiris.png" alt="Actiris"></a></li>
                   <li><a class="black-text text-lighten-3" href="#!"><img width='80px' src="img/bxl-formation.png" alt="Bruxelles Formation"></a></li>
-                  <li><a class="black-text text-lighten-3" href="#!"><img width='80px' src="img/fse-logo.gif" alt="Fond Social européen"></a></li>
+                  <li><a class="black-text text-lighten-3" href="#!"><img width='60px' src="img/fse-logo.gif" alt="Fond Social européen"></a></li>
                    <li><a class="black-text text-lighten-3" href="#!"><img width='80px' src="img/bxl-region.png" alt="Région Bruxelles-Capitale"></a></li>
-                   <li><a class="black-text text-lighten-3" href="#!"><img width='80px' src="img/fwb.png" alt="Fédération Wallonie Bruxelles"></a></li>
+                   <li><a class="black-text text-lighten-3" href="#!"><img width='60px' src="img/fwb.png" alt="Fédération Wallonie Bruxelles"></a></li>
                 </ul>
               </div>
             </div>
