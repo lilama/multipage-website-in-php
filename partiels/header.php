@@ -6,9 +6,9 @@
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav class="nav-extended">
 			    <div class="nav-wrapper">
-			      <a href="#!" class="brand-logo"><img width='170px' src="img/logoChomhier.png" alt="Logo Chomhier"></a>
+			      <a href="index.php" class="brand-logo"><img width='170px' src="img/logoChomhier.png" alt="Logo Chomhier"></a>
 			      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="large material-icons">dehaze</i></a>
 			      <ul class="right hide-on-med-and-down">
 			      	<li><a href="educ-perm.php">Education permanente</a></li>
@@ -16,6 +16,9 @@
 			        <li><a href="activites.php">Nos activités</a></li>
 			        <li><a href="contact.php">Contact</a></li>
 			      </ul>
+			    </div>
+			    <div class="nav-content">
+			    	<span class="main-quote">L'association contre l'exclusion sociale, professionnelle et culturelle</span>
 			    </div>
 		  	</nav>
 
@@ -26,7 +29,7 @@
 			    <li><a href="contact.php">Contact</a></li>
 			</ul>
 		</header>
-		<br><br><br><br>
+		<br><br>
 		<!-- Compiled and minified JavaScript -->
 		<script type="text/javascript" src="js/script.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

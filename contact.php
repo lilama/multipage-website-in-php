@@ -7,7 +7,9 @@
 	<body>
 		<!-- Header -->
 		<?php include 'partiels/header.php' ?>
-		
+		<main>
+			
+		</main>
 	
 		<!-- Footer -->
 		<?php include 'partiels/footer.php' ?>

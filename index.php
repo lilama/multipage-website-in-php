@@ -8,7 +8,6 @@
 		<!-- Header -->
 		<?php include 'partiels/header.php' ?>
 		<main>
-			<p class="main-quote">"L'association contre l'exclusion sociale, professionnelle et culturelle"</p>
 			<div class="carousel">
 			    <a class="carousel-item" href="#one!"><img src="img/educperma.jpeg"></a>
 			    <a class="carousel-item" href="#two!"><img src="img/insertionsociopro.jpeg"></a>
@@ -20,21 +19,21 @@
   				<h2>Qui sommes-nous?</h2>
   				<p>Créée en 1984, <b>La Chôm'hier-AID</b> est une association sans but lucratif dont l'objectif est la lutte contre l'exclusion sociale, professionnelle et culturelle des personnes, des groupes défavorisés et des primo-arrivants. Elle se développe en quatre champs d'action:</p>
   				<div class="row">
-  					<div class="col s3">
+  					<div class="col s12 m3">
   						<div class="card-panel orange lighten-4 center">
   						Un pôle insertion socioprofessionnelle qui fonctionne uniquement avec des professionnels et sur base de formations gratuites et accessibles à tous les demandeurs d'emploi.</div>
   					</div>
-  					<div class="col s3">
+  					<div class="col s12 m3">
   						<div class="card-panel orange lighten-4 center">
   						Un pôle insertion sociale (éducation permanente) animé par un formateur détaché par le CIEP-MOC (CIEP: Centre d'information et d'éducation populaire. MOC: Mouvement ouvrier chrétien).
   						</div>
   					</div>
-  					<div class="col s3">
+  					<div class="col s12 m3">
   						<div class="card-panel orange lighten-4 center">
   						Un secteur jeunesse avec une école de devoirs pour enfants et pour primo-arrivants (12-18 ans) et la mise en place de séances de rattrapage scolaire durant les vacances de Toussaint et de Carnaval (tutorat).
 	  					</div>
   					</div>
-  					<div class="col s3">
+  					<div class="col s12 m3">
   						<div class="card-panel orange lighten-4 center">
   						Un secteur d'économie sociale, qui consiste en la gestion d'un restaurant social (la K-fête) offrant repas et boissons à des prix démocratiques et prônant la réinsertion dans le milieu de l'Horeca.</div>
   					</div>

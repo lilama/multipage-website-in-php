@@ -2,6 +2,7 @@
   body {
     display: flex;
     min-height: 100vh;
+    width: 100%;
     flex-direction: column;
   }
 
@@ -11,7 +12,7 @@
 
 /*Header style*/
 .nav-wrapper {
-	height: 160px!important;
+	height: 140px!important;
 	background-color: #ff7a28;
 }
 
@@ -22,7 +23,19 @@
 }
 
 .nav-wrapper img {
-	margin: 30px 20px 20px 50px;
+	margin: 30px 20px 0px 50px;
+}
+
+.nav-content {
+	background-color: #ff7a28;
+	padding-bottom: 20px!important;
+}
+
+.nav-content .main-quote {
+	font-size: 10px;
+	color: black;
+	margin-left: 40px;
+	font-style: italic;
 }
 
 /*Footer style*/
@@ -33,19 +46,21 @@ footer ul {
 	align-items: baseline;
 }
 
+@media screen and (max-width: 600px) {
+	footer ul {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 footer ul li {padding: 5px;}
 
 /*Main page*/
-.main-quote {
-	font-size: 30px;
-	text-align: center;
-	margin-top: 30px;
-}
-
 .carousel .carousel-item {
 	margin-top: -70px !important;
 	width:500px !important;
 }
+
 
 .description {
 	margin-left: 30px;
