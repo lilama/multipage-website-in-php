@@ -18,7 +18,7 @@
 			      </ul>
 			    </div>
 			    <div class="nav-content">
-			    	<span class="main-quote">L'association contre l'exclusion sociale, professionnelle et culturelle</span>
+			    	<span class="main-quote">L'Association contre l'exclusion sociale, professionnelle et culturelle</span>
 			    </div>
 		  	</nav>
 
