@@ -8,9 +8,12 @@
 		<!-- Header -->
 		<?php include 'partiels/header.php' ?>
 		<div class="parallax-container map-container">
-				<div class="parallax"><a href="https://maps.google.be/maps?q=Rue+Fransman+131,+1020+Bruxelles&hnear=Rue+Fransman+131,+Laeken+1020+Bruxelles&t=m&z=16" target="_blank"></a><img src="img/map.png" alt="Carte d'accès" id="map"></div>
+			<div class="parallax">
+				<img src="img/map.png" alt="Carte d'accès" id="map">
+			</div>	
 		</div>
 		<main class="page-contact">
+			<a id="googlemap" class="btn-floating btn-large waves-effect waves-light" href="https://maps.google.be/maps?q=Rue+Fransman+131,+1020+Bruxelles&hnear=Rue+Fransman+131,+Laeken+1020+Bruxelles&t=m&z=16" target="_blank"><i class="material-icons">near_me</i></a>
 			<div class="address">
 				<h2>Où nous trouver?</h2>
 					<p>La Chôm'hier est disponible pour vous, n'hésitez pas à nous contacter via ce formulaire, par téléphone ou à passer par nos locaux situés à l'adresse ci-dessous.</p>

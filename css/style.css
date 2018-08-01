@@ -15,6 +15,7 @@
 .nav-wrapper {
 	height: 140px!important;
 	background-color: #ff7a28;
+	padding-right: 40px;
 }
 
 .nav-wrapper ul a {
@@ -73,9 +74,12 @@ h2, h3 {
 }
 
 /*Contact*/
-.address .card-panel {margin: 0px 100px 0px 100px;}
+#googlemap {
+	margin-left: 45%;
+	margin-top: -25px;
+}
 
-.form {margin: 0px 200px 0px 200px;}
+.parallax-container {height: 300px!important;}
 
 .radio_button {
 	padding-right: 20px;
