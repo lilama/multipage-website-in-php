@@ -8,12 +8,15 @@
 		<!-- Header -->
 		<?php include 'partiels/header.php' ?>
 		<main>
-			<div class="carousel">
-			    <a class="carousel-item" href="#one!"><img src="img/educperma.jpeg"></a>
-			    <a class="carousel-item" href="#two!"><img src="img/insertionsociopro.jpeg"></a>
-			    <a class="carousel-item" href="#three!"><img src="img/educperma.jpeg"></a>
-			    <a class="carousel-item" href="#four!"><img src="img/insertionsociopro.jpeg"></a>
-			    <a class="carousel-item" href="#five!"><img src="img/educperma.jpeg"></a>
+			<div class="parallax-container">
+				<div class="valign-wrapper h100">
+				    <h1 class=" white-text overlay center-align">
+				      Lorem ipsum dolor sit amet
+				    </h1>
+					<div class="parallax">
+					    <img src="img/educperma.jpeg">
+	  				</div>
+  				</div>
   			</div>
   			<div class="description">
   				<h2>Qui sommes-nous?</h2>

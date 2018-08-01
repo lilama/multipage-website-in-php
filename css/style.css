@@ -58,11 +58,13 @@ footer ul {
 footer ul li {padding: 5px;}
 
 /*Main page*/
-.carousel .carousel-item {
-	margin-top: -70px !important;
-	width:500px !important;
+.overlay {
+  width: 100%;
 }
 
+.h100 {
+  height: 100%;
+}
 
 .description, .page-contact {
 	margin-left: 30px;
@@ -79,7 +81,7 @@ h2, h3 {
 	margin-top: -25px;
 }
 
-.parallax-container {height: 300px!important;}
+.parallax-container {height: 400px!important;}
 
 .radio_button {
 	padding-right: 20px;
