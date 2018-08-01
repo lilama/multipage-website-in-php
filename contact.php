@@ -8,9 +8,16 @@
 		<!-- Header -->
 		<?php include 'partiels/header.php' ?>
 		<main class=page-contact>
-			<h2>Formulaire</h2>
-			<!-- Formulaire -->        
-			<div class="row card grey lighten-3">
+			<p>La Chôm'hier est disponible pour vous, n'hésitez pas à nous contacter via ce formulaire, ou à passer par nos locaux</p>
+			<div class="row">
+				<div class="card col s6">
+					<p>La Chôm'Hier AID - rue Fransman, 131 - 1020 Bruxelles - Tél : 02/241.32.30 - Fax : 02/245.19.31</p>
+				</div>
+				<div class="col s6"></div>
+			</div>
+			<!-- Formulaire -->
+			<h2>Formulaire</h2>       
+			<div class="row card grey lighten-3 z-depth-3">
 			    <form class="col s12">
 			    	<!-- Titre -->
 			    	<div class="row">
