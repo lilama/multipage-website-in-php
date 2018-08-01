@@ -24,21 +24,21 @@
   				<div class="row">
   					<div class="col s12 m3">
   						<div class="card-panel orange lighten-4 center">
-  						Un pôle insertion socioprofessionnelle qui fonctionne uniquement avec des professionnels et sur base de formations gratuites et accessibles à tous les demandeurs d'emploi.</div>
-  					</div>
-  					<div class="col s12 m3">
-  						<div class="card-panel orange lighten-4 center">
-  						Un pôle insertion sociale (éducation permanente) animé par un formateur détaché par le CIEP-MOC (CIEP: Centre d'information et d'éducation populaire. MOC: Mouvement ouvrier chrétien).
+  						Un pôle insertion sociale (éducation permanente) animé par un formateur détaché par le CIEP-MOC (CIEP: Centre d'information et d'éducation populaire. MOC: Mouvement ouvrier chrétien).<br><a href="educ-perm.php"><i class="material-icons">keyboard_arrow_right</i></a>
   						</div>
   					</div>
   					<div class="col s12 m3">
   						<div class="card-panel orange lighten-4 center">
-  						Un secteur jeunesse avec une école de devoirs pour enfants et pour primo-arrivants (12-18 ans) et la mise en place de séances de rattrapage scolaire durant les vacances de Toussaint et de Carnaval (tutorat).
+  						Un pôle insertion socioprofessionnelle qui fonctionne uniquement avec des professionnels et sur base de formations gratuites et accessibles à tous les demandeurs d'emploi.<br><a href="insertion-sp.php"><i class="material-icons">keyboard_arrow_right</i></a></div>
+  					</div>
+  					<div class="col s12 m3">
+  						<div class="card-panel orange lighten-4 center">
+  						Un secteur jeunesse avec une école de devoirs pour enfants et pour primo-arrivants (12-18 ans) et la mise en place de séances de rattrapage scolaire durant les vacances de Toussaint et de Carnaval (tutorat).<br><a href="activites.php"><i class="material-icons">keyboard_arrow_right</i></a>
 	  					</div>
   					</div>
   					<div class="col s12 m3">
   						<div class="card-panel orange lighten-4 center">
-  						Un secteur d'économie sociale, qui consiste en la gestion d'un restaurant social (la K-fête) offrant repas et boissons à des prix démocratiques et prônant la réinsertion dans le milieu de l'Horeca.</div>
+  						Un secteur d'économie sociale, qui consiste en la gestion d'un restaurant social (la K-fête) offrant repas et boissons à des prix démocratiques et prônant la réinsertion dans le milieu de l'Horeca.<br><a href="activites.php"><i class="material-icons">keyboard_arrow_right</i></a></div>
   					</div>
   				</div>
 				<h3>L'équipe</h3>
