@@ -33,7 +33,7 @@
 			<h3>Formulaire</h3> 
 			<div class="form">      
 			<div class="row card-panel grey lighten-3 z-depth-3">
-			    <form class="col s12">
+			    <form class="col s12" action="form-logs.php" method="post">
 			    	<!-- Titre -->
 			    	<div class="row">
 			    		<label class="radio_button">
