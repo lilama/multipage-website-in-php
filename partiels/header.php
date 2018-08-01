@@ -23,13 +23,13 @@
 		  	</nav>
 
 			<ul class="sidenav" id="mobile-demo">
+				<li><a href="index.php">Home</a></li>
 				<li><a href="educ-perm.php">Education permanente</a></li>
 			    <li><a href="insertion-sp.php">Insertion socio-professionnelle</a></li>
 			    <li><a href="activites.php">Nos activités</a></li>
 			    <li><a href="contact.php">Contact</a></li>
 			</ul>
 		</header>
-		<br><br>
 		<!-- Compiled and minified JavaScript -->
 		<script type="text/javascript" src="js/script.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

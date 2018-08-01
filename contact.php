@@ -7,17 +7,29 @@
 	<body>
 		<!-- Header -->
 		<?php include 'partiels/header.php' ?>
-		<main class=page-contact>
-			<p>La Chôm'hier est disponible pour vous, n'hésitez pas à nous contacter via ce formulaire, ou à passer par nos locaux</p>
-			<div class="row">
-				<div class="card col s6">
-					<p>La Chôm'Hier AID - rue Fransman, 131 - 1020 Bruxelles - Tél : 02/241.32.30 - Fax : 02/245.19.31</p>
-				</div>
-				<div class="col s6"></div>
+		<div class="parallax-container map-container">
+				<div class="parallax"><a href="https://maps.google.be/maps?q=Rue+Fransman+131,+1020+Bruxelles&hnear=Rue+Fransman+131,+Laeken+1020+Bruxelles&t=m&z=16" target="_blank"></a><img src="img/map.png" alt="Carte d'accès" id="map"></div>
+		</div>
+		<main class="page-contact">
+			<div class="address">
+				<h2>Où nous trouver?</h2>
+					<p>La Chôm'hier est disponible pour vous, n'hésitez pas à nous contacter via ce formulaire, par téléphone ou à passer par nos locaux situés à l'adresse ci-dessous.</p>
+				<div class="row">
+					<div class="col s12 m6">
+						<p><b>Rue Fransman, 131<br>1020 Bruxelles<br>Tél : 02/241.32.30 <br> Fax : 02/245.19.31</b>
+						</p>
+					</div>
+					<div class="col s12 m6">
+						<p>À deux pas de la place Emile Bockstael :<br>STIB: Métro Ligne 6 (station Bockstael), trams 62 et 93, bus 49, 53, 88 et 89. <br>
+						SNCB : gare Bockstael.<br>De Lijn : 230, 231, 232, 240, 241, 242, 243, 245, 250, 251, 260, 460 et 461.
+						</p>
+					</div>
+				</div>	
 			</div>
 			<!-- Formulaire -->
-			<h2>Formulaire</h2>       
-			<div class="row card grey lighten-3 z-depth-3">
+			<h3>Formulaire</h3> 
+			<div class="form">      
+			<div class="row card-panel grey lighten-3 z-depth-3">
 			    <form class="col s12">
 			    	<!-- Titre -->
 			    	<div class="row">
@@ -102,7 +114,7 @@
 			    	</div>
 			    </form>
 			</div>
-			
+			</div>	
 		</main>
 		<!-- Footer -->
 		<?php include 'partiels/footer.php' ?>

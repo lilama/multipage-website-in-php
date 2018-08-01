@@ -3,6 +3,7 @@
     display: flex;
     min-height: 100vh;
     width: 100%;
+    margin: 0px 10px 0px 10px;
     flex-direction: column;
   }
 
@@ -72,15 +73,9 @@ h2, h3 {
 }
 
 /*Contact*/
-.page-contact {margin: 0px 200px 0px 200px;}
-@media screen and (max-width: 900px) {
-	.page-contact {
-		margin: 0px 0px 0px 0px;
-	}
-}
+.address .card-panel {margin: 0px 100px 0px 100px;}
 
-
-.page-contact .card {padding: 20px;}
+.form {margin: 0px 200px 0px 200px;}
 
 .radio_button {
 	padding-right: 20px;
@@ -90,3 +85,4 @@ h2, h3 {
 .btn-file {margin-left: 10px;}
 
 .btn-submit {margin-top: 20px;}
+
