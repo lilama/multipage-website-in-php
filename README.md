@@ -4,6 +4,7 @@ ___
 # Projet "Chôm'hier AID", asbl pour l'insertion sociale
 
 Visitez notre projet! (Lien à ajouter)
+[Site initial](http://www.chomhier.be)
 
 ## Equipe
 
