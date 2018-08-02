@@ -37,33 +37,33 @@
 			    	<!-- Titre -->
 			    	<div class="row">
 			    		<label class="radio_button">
-			    			<input id="choice_1" name="title" type="radio" checked/>   
+			    			<input id="choice_1" name="title" value="Mme" type="radio" checked/>   
 							<span for="choice_1">Mme</span>
     					</label>
     					<label class="radio_button">
-			    			<input id="choice_2" name="title" type="radio" checked/>   
+			    			<input id="choice_2" name="title" value="Melle" type="radio" checked/>   
 							<span for="choice_2">Melle</span>
     					</label>
     					<label class="radio_button">
-			    			<input id="choice_3" name="title" type="radio" checked/>   
+			    			<input id="choice_3" name="title" value="Mr" type="radio" checked/>   
 							<span for="choice_3">Mr</span>
     					</label>
 			    	</div>
 			    	<!-- Noms -->
 			    	<div class="row">
 			    		<div class="input-field col s6">
-			    			<input id="firstname" type="text" class="validate">
+			    			<input name="firstname" value="" type="text" class="validate">
 			          		<label for="firstname">Prénom</label>
 			        	</div>
 			        	<div class="input-field col s6">
-			        		<input id="lastname" type="text" class="validate">
+			        		<input name="lastname" value="" type="text" class="validate">
 			        		<label for="lastname">Nom</label>
 			        	</div>
 			      	</div>
 			      	<!-- Email -->
 			      	<div class="row">
 			      		<div class="input-field col s12">
-			      			<input id="email" type="email" class="validate">
+			      			<input name="email" type="email" value="" class="validate">
 			      			<label for="email">Email</label>
 			        	</div>
 			      	</div>
@@ -71,7 +71,7 @@
 			      	<div class="row">
 				      	<div class="input-field col s12">
 				      		<label>Objet</label><br><br>
-						    <select class="browser-default">
+						    <select class="browser-default" name="subject" id="subject">
 							      <option value="" disabled selected>Choose your option</option>
 							      <option value="info">Demande d'infos</option>
 							      <option value="formations">S'inscrire aux formations</option>
@@ -83,8 +83,8 @@
   					<!-- Texte -->
 			      	<div class="row">
 			      		<div class="input-field col s12">
-			      			<textarea id="textarea1" class="materialize-textarea"></textarea>
-          					<label for="textarea1">Texte</label>
+			      			<textarea name="message" class="materialize-textarea" id="message"></textarea>
+          					<label for="textarea">Texte</label>
 			        	</div>
 			     	</div>
 			     	<!-- Upload file -->
@@ -92,7 +92,7 @@
 			     		<div class="file-field input-field">
 			     			<div class="btn btn-file">
 					        	<span>Doc</span>
-					        	<input type="file"size="32" name="image_field" value="">
+					        	<input type="file"size="32" name="image_field" value="" id="upload">
 					      	</div>
 					      	<div class="file-path-wrapper">
 					        	<input class="file-path validate" type="text">
@@ -102,16 +102,16 @@
 			     	<!-- HTML - TEXTE -->
 			     	<div class="row">
 			    		<label class="radio_button">
-			    			<input id="choice_H" name="format" type="radio" checked/>   
+			    			<input id="choice_H" name="format" value="HTML" type="radio" checked/>   
 							<span for="choice_H">HTML</span>
     					</label>
     					<label class="radio_button">
-			    			<input id="choice_T" name="format" type="radio" checked/>   
+			    			<input id="choice_T" name="format" value="Texte" type="radio" checked/>   
 							<span for="choice_T">Texte</span>
     					</label>
 			    	</div>
 			    	<div>
-			    		<button class="btn waves-effect waves-light btn-submit" type="submit" name="action">Envoi
+			    		<button class="btn waves-effect waves-light btn-submit" type="submit" name="submit" value="Envoi">Envoi
 			    	  	<i class="material-icons right">send</i>
 			    	  	</button>
 			    	</div>
