@@ -33,31 +33,31 @@
 			<h3>Formulaire</h3> 
 			<div class="form">      
 			<div class="row card-panel grey lighten-3 z-depth-3">
-			    <form class="col s12" action="form-logs.php" method="post">
+			    <form enctype="multipart/form-data" class="col s12" action="contact.php" method="post">
 			    	<!-- Titre -->
 			    	<div class="row">
 			    		<label class="radio_button">
-			    			<input id="choice_1" name="group1" type="radio" checked/>   
+			    			<input id="choice_1" name="title" type="radio" checked/>   
 							<span for="choice_1">Mme</span>
     					</label>
     					<label class="radio_button">
-			    			<input id="choice_2" name="group1" type="radio" checked/>   
+			    			<input id="choice_2" name="title" type="radio" checked/>   
 							<span for="choice_2">Melle</span>
     					</label>
     					<label class="radio_button">
-			    			<input id="choice_3" name="group1" type="radio" checked/>   
+			    			<input id="choice_3" name="title" type="radio" checked/>   
 							<span for="choice_3">Mr</span>
     					</label>
 			    	</div>
 			    	<!-- Noms -->
 			    	<div class="row">
 			    		<div class="input-field col s6">
-			    			<input id="first_name" type="text" class="validate">
-			          		<label for="first_name">Prénom</label>
+			    			<input id="firstname" type="text" class="validate">
+			          		<label for="firstname">Prénom</label>
 			        	</div>
 			        	<div class="input-field col s6">
-			        		<input id="last_name" type="text" class="validate">
-			        		<label for="last_name">Nom</label>
+			        		<input id="lastname" type="text" class="validate">
+			        		<label for="lastname">Nom</label>
 			        	</div>
 			      	</div>
 			      	<!-- Email -->
@@ -73,10 +73,10 @@
 				      		<label>Objet</label><br><br>
 						    <select class="browser-default">
 							      <option value="" disabled selected>Choose your option</option>
-							      <option value="1">Demande d'infos</option>
-							      <option value="2">S'inscrire aux formations</option>
-							      <option value="3">Postuler chez nous</option>
-							      <option value="3">Autre</option>
+							      <option value="info">Demande d'infos</option>
+							      <option value="formations">S'inscrire aux formations</option>
+							      <option value="postuler">Postuler chez nous</option>
+							      <option value="autre">Autre</option>
 						    </select>
 	  					</div>
   					</div>
@@ -92,7 +92,7 @@
 			     		<div class="file-field input-field">
 			     			<div class="btn btn-file">
 					        	<span>Doc</span>
-					        	<input type="file">
+					        	<input type="file"size="32" name="image_field" value="">
 					      	</div>
 					      	<div class="file-path-wrapper">
 					        	<input class="file-path validate" type="text">
@@ -102,11 +102,11 @@
 			     	<!-- HTML - TEXTE -->
 			     	<div class="row">
 			    		<label class="radio_button">
-			    			<input id="choice_H" name="group1" type="radio" checked/>   
+			    			<input id="choice_H" name="format" type="radio" checked/>   
 							<span for="choice_H">HTML</span>
     					</label>
     					<label class="radio_button">
-			    			<input id="choice_T" name="group1" type="radio" checked/>   
+			    			<input id="choice_T" name="format" type="radio" checked/>   
 							<span for="choice_T">Texte</span>
     					</label>
 			    	</div>

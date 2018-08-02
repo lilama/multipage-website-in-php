@@ -24,12 +24,12 @@
   				<div class="row">
   					<div class="col s12 m3">
   						<div class="card-panel orange lighten-4 center">
-  						Un pôle insertion sociale (éducation permanente) animé par un formateur détaché par le CIEP-MOC (CIEP: Centre d'information et d'éducation populaire. MOC: Mouvement ouvrier chrétien).<br><a href="educ-perm.php"><i class="material-icons">keyboard_arrow_right</i></a>
+  						Un pôle insertion sociale (éducation permanente) animé par un formateur détaché par le CIEP-MOC (CIEP: Centre d'information et d'éducation populaire. MOC: Mouvement ouvrier chrétien).<br><a href="formations.php"><i class="material-icons">keyboard_arrow_right</i></a>
   						</div>
   					</div>
   					<div class="col s12 m3">
   						<div class="card-panel orange lighten-4 center">
-  						Un pôle insertion socioprofessionnelle qui fonctionne uniquement avec des professionnels et sur base de formations gratuites et accessibles à tous les demandeurs d'emploi.<br><a href="insertion-sp.php"><i class="material-icons">keyboard_arrow_right</i></a></div>
+  						Un pôle insertion socioprofessionnelle qui fonctionne uniquement avec des professionnels et sur base de formations gratuites et accessibles à tous les demandeurs d'emploi.<br><a href="formations.php"><i class="material-icons">keyboard_arrow_right</i></a></div>
   					</div>
   					<div class="col s12 m3">
   						<div class="card-panel orange lighten-4 center">
