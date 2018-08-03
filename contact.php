@@ -92,7 +92,7 @@
 			     		<div class="file-field input-field">
 			     			<div class="btn btn-file">
 					        	<span>Doc</span>
-					        	<input type="file"size="32" name="image_field" value="" id="upload">
+					        	<input type="file" size="32" name="image_field" value="" id="upload">
 					      	</div>
 					      	<div class="file-path-wrapper">
 					        	<input class="file-path validate" type="text">
