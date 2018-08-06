@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71c3ce9d9718ecf6e7019597958eca42",
+    "content-hash": "14d04e5d39b4cfb426612a3b7e0af7a5",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -114,12 +114,55 @@
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "time": "2018-03-27T13:49:45+00:00"
+        },
+        {
+            "name": "verot/class.upload.php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verot/class.upload.php.git",
+                "reference": "c659b975a28dec30046bd23be3f9abc720a8a83e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verot/class.upload.php/zipball/c659b975a28dec30046bd23be3f9abc720a8a83e",
+                "reference": "c659b975a28dec30046bd23be3f9abc720a8a83e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/class.upload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Colin Verot",
+                    "email": "colin@verot.net"
+                }
+            ],
+            "description": "This PHP class uploads files and manipulates images very easily.",
+            "homepage": "http://www.verot.net/php_class_upload.htm",
+            "keywords": [
+                "gd",
+                "upload"
+            ],
+            "time": "2018-05-31T11:32:33+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "verot/class.upload.php": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

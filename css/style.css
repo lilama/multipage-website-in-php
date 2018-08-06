@@ -15,7 +15,7 @@
 .nav-wrapper {
 	height: 140px!important;
 	background-color: #ff7a28;
-	padding-right: 40px;
+	padding-right: 100px;
 }
 
 .nav-wrapper ul a {
@@ -34,7 +34,7 @@
 }
 
 .nav-content .main-quote {
-	font-size: 10px;
+	font-size: 15px;
 	color: black;
 	margin-left: 40px;
 	font-style: italic;
@@ -79,6 +79,13 @@ h2, h3 {
 #googlemap {
 	margin-left: 45%;
 	margin-top: -25px;
+}
+
+.form {
+	width: 50%;
+}
+@media screen and (max-width: 900px) {
+	.form {width: 100%;}
 }
 
 .parallax-container {height: 400px!important;}
