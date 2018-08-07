@@ -43,8 +43,8 @@ $mail->Username = "";
 // $mail->Password = "yourpassword";
 
 
-$mail->Password = $password;
-unset($password);
+$mail->Password = "yourpassword"
+unset("yourpassword");
  //The unset line of code is putting the $password variable back to null which means it exists only long enough to be passed to the mail object and no longer.
 
 
