@@ -1,0 +1,147 @@
+/*Minimize css*/
+/*  body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+  }*/
+
+  
+/*Header style*/
+/*.nav-wrapper {
+	height: 140px!important;
+	background-color: #ff7a28;
+}*/
+
+/*.nav-content .main-quote {
+	font-size: 10px;
+	color: black;
+	margin-left: 40px;
+	font-style: italic;
+}*/
+
+/*Main page*/
+/*.carousel .carousel-item {
+	margin-top: -70px !important;
+	width:500px !important;
+}*/
+
+/*Contact*/
+/*.page-contact {margin: 0px 200px 0px 200px;}*/
+
+
+/*.page-contact .card {padding: 20px;}*/
+
+/*Liliane*/
+
+.h2educ {
+	/*font-size: 1.5em;*/
+	font-size: 2.3em;
+	font-weight: bold;
+}
+
+.h1educ {
+	color: #EFA00B;
+	/*color: #00A2B0;*/
+	/*font-size: 2em;*/
+}
+
+.h3educ {
+	font-size: 1.6em;
+	color: #00A1AE;
+}
+
+.h5educ {
+	font-size: 1.4em;
+	
+}
+
+blockquote {
+	font-size: 1.2em;
+	width: 90vw;
+	margin-right: 10vw;
+}
+
+form {
+	max-width: 60vw;
+
+}
+
+form .card-panel {
+	color: #000;	
+}
+
+label.radio_button {
+	color: black;
+}
+
+label.formulaire {
+	color: black;
+}
+
+/*input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: rgb(250, 255, 189) !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}*/
+
+/*input::placeholder {
+    color: red;
+}
+input::-moz-placeholder {
+
+    color: red;
+
+}
+input::-webkit-input-placeholder { /* Chrome */
+ /* color: red;
+*//*}*/
+
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ 	color: #212121 !important;
+}
+
+input::-moz-placeholder { /* Firefox 19+ */
+ 	color: #212121;
+}
+
+input::-ms-input-placeholder { /* IE 10+ */
+ 	color: #212121;
+}
+
+input:-ms-input-placeholder { /* IE 10+ */
+ 	color: #212121;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+  color: #212121;
+}
+
+::placeholder {
+ 	color: #212121;
+}
+
+
+textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ 	color: #212121 !important; 	
+}
+
+textarea::-moz-placeholder { /* Firefox 19+ */
+ 	color: #212121;
+}
+
+textarea::-ms-input-placeholder { /* IE 10+ */
+ 	color: #212121;
+}
+
+textarea:-ms-input-placeholder { /* IE 10+ */
+ 	color: #212121;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+  color: #212121;
+}
+
+
+
