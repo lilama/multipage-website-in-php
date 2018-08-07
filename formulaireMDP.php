@@ -12,12 +12,12 @@
 		</form>
 
 		<?php 
-		if (isset($_POST['password']) && !empty($_POST['password'])) {
-			$password = filter_var($_POST['password'], FILTER_SANITIZE_STRING);
-			if ($password != false && $password = '') {
+		if (isset($_POST['"yourpassword"']) && !empty($_POST['"yourpassword"'])) {
+			"yourpassword" = filter_var($_POST['password'], FILTER_SANITIZE_STRING);
+			if ("yourpassword" != false && $password = '') {
 				echo "authentification faite";
-				$mail->Password = $password;
-				unset($password);
+				$mail->Password = "yourpassword";
+				unset("yourpassword");
 			} else {
 				echo "Erreur Password";
 			}
