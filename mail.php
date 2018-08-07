@@ -38,7 +38,9 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 // Password hide with gitignore
-include 'pass_gmail.php';
+if(file_exists('pass_gmail.php')) {
+    include 'pass_gmail.php';
+}
 
 //Set who the message is to be sent from
 $mail->setFrom('from@example.com', 'First Last');
