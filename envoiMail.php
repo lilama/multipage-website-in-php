@@ -42,7 +42,7 @@ $mail->Username = "";
 //Password to use for SMTP authentication
 // $mail->Password = "yourpassword";
 
-//Formulaire crée par 
+
 $mail->Password = $password;
 unset($password);
  //The unset line of code is putting the $password variable back to null which means it exists only long enough to be passed to the mail object and no longer.
@@ -66,7 +66,7 @@ $mail->Subject = 'PHPMailer GMail SMTP test';
 //Read an HTML message body from an external file, convert referenced images to embedded, 
 //convert HTML into a basic plain-text alternative body
 // $mail->msgHTML(file_get_contents('contents.html'), _DIR_);
-$mail->msgHTML(file_get_contents('contact3.php'), dirname(__FILE__));
+//$mail->msgHTML(file_get_contents('contact3.php'), dirname(__FILE__));
 
 // echo "<pre>";
 // var_dump(file_get_contents('contact3.php'));
