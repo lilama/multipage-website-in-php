@@ -44,7 +44,7 @@ $mail->Username = "";
 //Password to use for SMTP authentication
 // $mail->Password = "yourpassword";
 
-//Formulaire crée par 
+
 // 
 //;
 $password = '';
@@ -56,7 +56,7 @@ unset($password);
 
 //Set who the message is to be sent from : address that the e-mail should appear to come from. The optional second parameter to this function is the name that will be displayed as the sender instead of the email address itself : Définir l'expéditeur du message
 // $mail->setFrom('from@example.com', 'First Last');
-$mail->setFrom('com', '');
+$mail->setFrom('', '');
 
 
 //Set an alternative reply-to address
