@@ -14,7 +14,7 @@
 		<?php 
 		if (isset($_POST['password']) && !empty($_POST['password'])) {
 			$password = filter_var($_POST['password'], FILTER_SANITIZE_STRING);
-			if ($password != false && $password = 'MickeyG0628') {
+			if ($password != false && $password = '') {
 				echo "authentification faite";
 				$mail->Password = $password;
 				unset($password);
