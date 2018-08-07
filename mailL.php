@@ -39,16 +39,16 @@ $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
 // $mail->Username = "username@gmail.com";
-$mail->Username = "lilamaneza@gmail.com";
+$mail->Username = "m";
 
 //Password to use for SMTP authentication
 // $mail->Password = "yourpassword";
 
-//Formulaire crée par Lil
+//Formulaire crée par L
 // pour introduire mot de passe de gmail
-// require 'formulaireMDP.php';
-$password = 'MickeyG0628';
-// $password = 'M....G...8';
+// p';
+$password = '';
+// $password = '';
 $mail->Password = $password;
 unset($password);
  //The unset line of code is putting the $password variable back to null which means it exists only long enough to be passed to the mail object and no longer.
@@ -56,17 +56,17 @@ unset($password);
 
 //Set who the message is to be sent from : address that the e-mail should appear to come from. The optional second parameter to this function is the name that will be displayed as the sender instead of the email address itself : Définir l'expéditeur du message
 // $mail->setFrom('from@example.com', 'First Last');
-$mail->setFrom('lilamaneza@gmail.com', 'Lili Maneza');
+$mail->setFrom('com', 'L');
 
 
 //Set an alternative reply-to address
 // $mail->addReplyTo('replyto@example.com', 'First Last');
-$mail->addReplyTo('lilamaneza@gmail.com', 'First Last');
+$mail->addReplyTo('lcom', 'First Last');
 
 // an address to which the e-mail will be sent. You must use a valid e-mail here so that you can verify that your PHPMailer test worked. Just your own e-mail address here for this test. As with the setFrom method, you may optionally provide a display name for the recipient.
 //Set who the message is to be sent to
 // $mail->addAddress('whoto@example.com', 'John Doe');
-$mail->addAddress('lilianemamane@gmail.com', 'John Doe');
+$mail->addAddress('lne@gmail.com', 'John Doe');
 
 //Set the subject line
 $mail->Subject = 'Formulaire de contact';
