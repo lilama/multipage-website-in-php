@@ -26,7 +26,7 @@
 	<h3>Formulaire</h3> 
 	<div class="form">      
 	<div class="row card-panel grey lighten-3 z-depth-3">
-	    <form enctype="multipart/form-data" class="col s12" action="partiels/form-processor.php" method="post">
+	    <form enctype="multipart/form-data" class="col s12" action="form-processor.php" method="post">
 	    	<!-- Titre -->
 	    	<div class="row">
 	    		<label class="radio_button">

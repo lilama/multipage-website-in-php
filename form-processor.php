@@ -25,7 +25,7 @@ $handle = new upload($_FILES['image_field']);
 if ($handle->uploaded) {
   $handle->file_new_name_body   = $firstname .'-'. $lastname .'-img';
   $handle->image_resize         = true;
-  $handle->image_x              = 100;
+  $handle->image_x              = 500;
   $handle->image_ratio_y        = true;
   $handle->process('logs/img/');
   if ($handle->processed) {
@@ -57,8 +57,8 @@ $mail->SMTPSecure = 'tls';
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
 // Password hide with gitignore
-if(file_exists('pass_gmail.php')) {
-    include 'pass_gmail.php';
+if(file_exists('partiels/pass_gmail.php')) {
+    include 'partiels/pass_gmail.php';
 }
 //Set who the message is to be sent from
 $mail->setFrom($email_from, $firstname . ' ' . $lastname);
