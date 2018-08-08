@@ -26,7 +26,7 @@
 	<h3>Formulaire</h3> 
 	<div class="form">      
 	<div class="row card-panel grey lighten-3 z-depth-3">
-	    <form enctype="multipart/form-data" class="col s12" action="form.php" method="post">
+	    <form enctype="multipart/form-data" class="col s12" action="partiels/form-processor.php" method="post">
 	    	<!-- Titre -->
 	    	<div class="row">
 	    		<label class="radio_button">
@@ -85,7 +85,7 @@
 	     		<div class="file-field input-field">
 	     			<div class="btn btn-file">
 			        	<span>Doc</span>
-			        	<input type="file" size="32" name="image_field" value="" id="upload">
+			        	<input type="file" size="32" name="image_field" value="upload" id="upload">
 			      	</div>
 			      	<div class="file-path-wrapper">
 			        	<input class="file-path validate" type="text">
