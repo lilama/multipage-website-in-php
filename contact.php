@@ -22,6 +22,18 @@
 			</div>
 		</div>	
 	</div>
+	<h3>L'équipe</h3>
+		<ul class="browser-default">
+			<li><b>Directeur général</b>: Mathieu Danero</li>
+			<li><b>Accompagnement social des stagiaires ou participants</b>: Ida Dal</li>
+			<li><b>Comptabilité</b>: Alessandro Progno</li>
+			<li><b>Accueil</b>: Fatima Oukhelle, Pedro Herrera</li>
+			<li><b>Responsable K-fête</b>: Philippe Beaunom (cuisine)</li>
+			<li><b>Formateurs en Insertion Socioprofessionnelle</b>: Béatrice Hiroux, Sophie Portois, Bénédicte Berhin,	Michelle Pétry, Kémo Keïta, Dominique Mainjot, Dominique Debroux, Mathieu Duquenne, Renaud Staner</li>
+			<li><b>Formateurs en Éducation permanente</b>: Sylvie Wauthier (détachée par Lire et Écrire), Patrick Vandersteegen</li>
+			<li><b>Secteur jeunesse et enfance</b>: Géraldine Grandjean</li>
+			<li><b>Logistique</b>: Samir Boulaichi</li>
+		</ul>
 	<!-- Formulaire -->
 	<h3>Formulaire</h3> 
 	<div class="form">      

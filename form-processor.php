@@ -4,8 +4,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 require 'vendor/autoload.php';
 
-echo '<pre>';
 
+// Form & treatment
+echo '<pre>';
 // Sanitize & validate
 $title = filter_var($_POST['title'], FILTER_SANITIZE_STRING);
 $firstname = filter_var($_POST['firstname'], FILTER_SANITIZE_STRING);
@@ -19,6 +20,8 @@ if (true === filter_var($email_from, FILTER_VALIDATE_EMAIL)) {
 $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
 $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
 $format = filter_var($_POST['format'], FILTER_SANITIZE_STRING);
+
+
 
 // Image treatment
 $handle = new upload($_FILES['image_field']);
@@ -66,6 +69,8 @@ $mail->setFrom($email_from, $firstname . ' ' . $lastname);
 // $mail->addReplyTo('replyto@example.com', 'First Last');
 //Set who the message is to be sent to
 $mail->addAddress('charlotte.tusset@gmail.com', 'Charlotte Tusset');
+// CC to user
+$mail->addAddress($email_from, $firstname . ' ' . $lastname);
 //Set the subject line
 $mail->Subject = $subject;
 //Read an HTML message body from an external file, convert referenced images to embedded,
@@ -82,5 +87,32 @@ if(!$mail->send()) {
     echo "Message envoyé!";
 }
 unset($mail);
+
+
+/* Add logs in txt file */
+$my_file = 'logs/logs.txt';
+$handle = fopen($my_file, 'a') or die('Cannot open file:  '.$my_file);
+$date = new DateTime();
+$date = $date->format('Y-m-d H:i:s');
+$data = $date . "\n";
+if(isset($firstname) && isset($lastname) && isset($title) && isset($email)){
+    $data .= 'message from ' . $title . ' '  . $firstName . ' ' . $surname . ' (' . $email . ')';
+    $data .= "\n";
+}elseif(isset($firstname) && isset($lastname) && isset($email)) {
+    $data .= 'message from ' . $firstname . ' ' . $lastname . ' (' . $email . ')';
+    $data .= "\n";
+}elseif(isset($email)) {
+    $data .= 'message from ' . $email . "\n";
+}
+if(isset($subject)){
+    $data .= 'Concerns : ' . $subject . "\n";
+}
+if(isset($message)){
+    $data .= $message . "\n";
+}
+$data .= "\n";
+fwrite($handle, $data);
+fclose($handle);
+
 
 ?>

@@ -4,7 +4,7 @@
 	<div class="parallax-container">
 		<div class="valign-wrapper h100">
 		    <h1 class=" white-text overlay center-align">
-		      Lorem ipsum dolor sit amet
+		      <a href="formations.php">Découvrez nos formations</a>
 		    </h1>
 			<div class="parallax">
 			    <img src="img/educperma.jpeg">
@@ -34,18 +34,6 @@
 				Un secteur d'économie sociale, qui consiste en la gestion d'un restaurant social (la K-fête) offrant repas et boissons à des prix démocratiques et prônant la réinsertion dans le milieu de l'Horeca.<br><a href="activites.php"><i class="material-icons">keyboard_arrow_right</i></a></div>
 			</div>
 		</div>
-		<h3>L'équipe</h3>
-		<ul class="browser-default">
-			<li><b>Directeur général</b>: Mathieu Danero</li>
-			<li><b>Accompagnement social des stagiaires ou participants</b>: Ida Dal</li>
-			<li><b>Comptabilité</b>: Alessandro Progno</li>
-			<li><b>Accueil</b>: Fatima Oukhelle, Pedro Herrera</li>
-			<li><b>Responsable K-fête</b>: Philippe Beaunom (cuisine)</li>
-			<li><b>Formateurs en Insertion Socioprofessionnelle</b>: Béatrice Hiroux, Sophie Portois, Bénédicte Berhin,	Michelle Pétry, Kémo Keïta, Dominique Mainjot, Dominique Debroux, Mathieu Duquenne, Renaud Staner</li>
-			<li><b>Formateurs en Éducation permanente</b>: Sylvie Wauthier (détachée par Lire et Écrire), Patrick Vandersteegen</li>
-			<li><b>Secteur jeunesse et enfance</b>: Géraldine Grandjean</li>
-			<li><b>Logistique</b>: Samir Boulaichi</li>
-		</ul>
 		<h3>Associations partenaires</h3>
 		<div class="row">
 			<div class="col s6">

@@ -11,6 +11,9 @@
     flex: 1 0 auto;
   }
 
+a {
+	color: #189eac!important;
+}
 /*Header style*/
 .nav-wrapper {
 	height: 140px!important;
