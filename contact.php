@@ -76,7 +76,7 @@
 	      	<div class="row">
 		      	<div class="input-field col s12">
 		      		<label>Objet</label><br><br>
-				    <select class="browser-default" name="subject" id="subject">
+				    <select class="browser-default" name="subject" id="subject" required>
 					      <option value="" disabled selected>Choose your option</option>
 					      <option value="info">Demande d'infos</option>
 					      <option value="formations">S'inscrire aux formations</option>
@@ -88,7 +88,7 @@
 			<!-- Texte -->
 	      	<div class="row">
 	      		<div class="input-field col s12">
-	      			<textarea name="message" class="materialize-textarea" id="message"></textarea>
+	      			<textarea name="message" class="materialize-textarea" id="message" required="required"></textarea>
   					<label for="textarea">Texte</label>
 	        	</div>
 	     	</div>

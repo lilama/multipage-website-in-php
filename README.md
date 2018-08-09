@@ -18,6 +18,7 @@ Formation **Becode.org**
 * Framework CSS: [Materialize](https://materializecss.com/)
 * Durée: 7 jours ouvrables (début: _30/07/2017_)
 * **Objectif**: application des acquis PHP
+* [UML simplifié](img/UML.svg)
 
 ### Consignes 
 
