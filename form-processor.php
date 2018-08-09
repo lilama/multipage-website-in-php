@@ -67,7 +67,7 @@ $mail->setFrom($email_from, $firstname . ' ' . $lastname);
 //Set who the message is to be sent to
 $mail->addAddress('charlotte.tusset@gmail.com', 'Charlotte Tusset');
 // CC to user
-$mail->addAddress($email_from, $firstname . ' ' . $lastname);
+$mail->addCC($email_from, $firstname . '' . $lastname); 
 //Set the subject line
 $mail->Subject = $subject;
 //Read an HTML message body from an external file, convert referenced images to embedded,
