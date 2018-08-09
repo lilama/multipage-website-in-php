@@ -7,7 +7,7 @@
 		      <a href="formations.php">Découvrez nos formations</a>
 		    </h1>
 			<div class="parallax">
-			    <img src="img/educperma.jpeg">
+			    <img src="img/educperma.jpeg" alt="educpermanente">
 			</div>
 		</div>
 	</div>
