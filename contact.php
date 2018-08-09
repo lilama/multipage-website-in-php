@@ -117,7 +117,7 @@
 	    	</div>
 	    	<label>
 	    		<input class="filled-in" type="checkbox" id="filled-in-box" name="CGU" checked/>
-      			<span for="filled-in-box">J'ai lu les conditions d'utilisation</span>
+      			<span for="filled-in-box">J'ai lu les conditions générales d'utilisation</span>
       		</label>
 	    	<div>
 	    		<button class="btn waves-effect waves-light btn-submit right" type="submit" name="submit" value="Envoi">Envoi
