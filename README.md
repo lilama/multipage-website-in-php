@@ -45,7 +45,13 @@ Formation **Becode.org**
 
 ## Screenshots
 
+### Unified Modelling Language - UML 
+
 ![UML simplifié](img/UML.png)
+
+### Lighthouse 
+
+![Homepage before publication](img/lighthouse-home.png)
 
 ### Avant
 ![Homepage](img/screenshot_av.png)  
