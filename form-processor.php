@@ -1,9 +1,8 @@
 <?php 
 
 //Import PHPMailer classes into the global namespace
-use PHPMailer\PHPMailer\PHPMailer;
 require 'vendor/autoload.php';
-
+use PHPMailer\PHPMailer\PHPMailer;
 
 // Form & treatment
 echo '<pre>';
@@ -20,8 +19,6 @@ if (true === filter_var($email_from, FILTER_VALIDATE_EMAIL)) {
 $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
 $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
 $format = filter_var($_POST['format'], FILTER_SANITIZE_STRING);
-
-
 
 // Image treatment
 $handle = new upload($_FILES['image_field']);

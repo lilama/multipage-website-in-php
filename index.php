@@ -3,7 +3,7 @@
 <main>
 	<div class="parallax-container">
 		<div class="valign-wrapper h100">
-		    <h1 class=" white-text overlay center-align">
+		    <h1 class="white-text overlay center-align">
 		      <a href="formations.php">Découvrez nos formations</a>
 		    </h1>
 			<div class="parallax">

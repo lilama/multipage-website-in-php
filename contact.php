@@ -57,18 +57,18 @@
 	    	<!-- Noms -->
 	    	<div class="row">
 	    		<div class="input-field col s6">
-	    			<input name="firstname" value="" type="text" class="validate">
+	    			<input name="firstname" value="" type="text" class="validate" required>
 	          		<label for="firstname">Prénom</label>
 	        	</div>
 	        	<div class="input-field col s6">
-	        		<input name="lastname" value="" type="text" class="validate">
+	        		<input name="lastname" value="" type="text" class="validate" required>
 	        		<label for="lastname">Nom</label>
 	        	</div>
 	      	</div>
 	      	<!-- Email -->
 	      	<div class="row">
 	      		<div class="input-field col s12">
-	      			<input name="email" type="email" value="" class="validate">
+	      			<input name="email" type="email" value="" class="validate" required>
 	      			<label for="email">Email</label>
 	        	</div>
 	      	</div>
@@ -83,9 +83,9 @@
 					      <option value="postuler">Postuler chez nous</option>
 					      <option value="autre">Autre</option>
 				    </select>
-					</div>
 				</div>
-				<!-- Texte -->
+			</div>
+			<!-- Texte -->
 	      	<div class="row">
 	      		<div class="input-field col s12">
 	      			<textarea name="message" class="materialize-textarea" id="message"></textarea>
@@ -120,7 +120,7 @@
       			<span for="filled-in-box">J'ai lu les conditions d'utilisation</span>
       		</label>
 	    	<div>
-	    		<button class="btn waves-effect waves-light btn-submit" type="submit" name="submit" value="Envoi">Envoi
+	    		<button class="btn waves-effect waves-light btn-submit right" type="submit" name="submit" value="Envoi">Envoi
 	    	  	<i class="material-icons right">send</i>
 	    	  	</button>
 	    	</div>
