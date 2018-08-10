@@ -59,7 +59,7 @@
 		}	
 
 		// Le formulaire est bien rempli: tout va bien		
-		include 'mailL.php';
+		include 'mail.php';
 				
 	} else {
 		echo "Des informations sont manquantes";
@@ -68,4 +68,31 @@
 	function sanitiserString($parametre) {
 		return filter_var($parametre, FILTER_SANITIZE_STRING);
 	}
+
+/* Add logs in txt file */
+$my_file = 'logs/logs.txt';
+$handle = fopen($my_file, 'a') or die('Cannot open file:  '.$my_file);
+$date = new DateTime();
+$date = $date->format('Y-m-d H:i:s');
+$data = $date . "\n";
+if(isset($firstname) && isset($lastname) && isset($title) && isset($email)){
+    $data .= 'message from ' . $title . ' '  . $firstName . ' ' . $surname . ' (' . $email . ')';
+    $data .= "\n";
+}elseif(isset($firstname) && isset($lastname) && isset($email)) {
+    $data .= 'message from ' . $firstname . ' ' . $lastname . ' (' . $email . ')';
+    $data .= "\n";
+}elseif(isset($email)) {
+    $data .= 'message from ' . $email . "\n";
+}
+if(isset($subject)){
+    $data .= 'Concerns : ' . $subject . "\n";
+}
+if(isset($message)){
+    $data .= $message . "\n";
+}
+$data .= "\n";
+fwrite($handle, $data);
+fclose($handle);
+
+	
 ?>	  			
