@@ -1,6 +1,6 @@
 <?php
 // Traitement du formulaire en php
-	if (isset($_POST['genre']) && isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['email']) && isset($_POST['objet']) && isset($_POST['message']) && isset($_POST['titreFic']) && isset($_FILES['docs']) && isset($_POST['formatRep']) && !empty($_POST['genre']) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['email']) && !empty($_POST['objet']) && !empty($_POST['message']) && !empty($_POST['titreFic']) && !empty($_FILES['docs']) && !empty($_POST['formatRep'])) {
+	if (isset($_POST['genre']) && isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['email']) && isset($_POST['objet']) && isset($_POST['message']) && isset($_FILES['docs']) && isset($_POST['formatRep']) && isset($_POST['CGU']) && !empty($_POST['genre']) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['email']) && !empty($_POST['objet']) && !empty($_POST['message'])  && !empty($_FILES['docs']) && !empty($_POST['formatRep']) && !empty($_POST['CGU'])) {
 
 		// on initie un tableau qui va contenir toute erreur potentielle.
 		$errors = array();
@@ -25,6 +25,8 @@
 		// Format Réponse
 		$formatRepNettoye = sanitiserString($_POST['formatRep']);
 
+		$cguNettoye = sanitiserString($_POST['CGU']);
+
 		// 2. Validation: Determine if the data is in proper form.
 		// Email
 		$emailValide = filter_var($emailNettoye, FILTER_VALIDATE_EMAIL);
@@ -48,7 +50,7 @@
 		if ($_FILES['docs']['size'] > $maxsize) $errors['erreurFicGros'] = "Le fichier est trop gros";
 		if ($images_sizes[0] > $maxwidth OR $images_sizes[1] > $maxheight) $errors['erreurImgGrande'] = "Image trop grande";
 		$id_membre = md5(uniqid(rand(), true));
-		$nomFichier = "fichier/1/{$id_membre}.{$extensions_upload}";
+		$nomFichier = "logs/img/{$id_membre}.{$extensions_upload}";
 		$resultat = move_uploaded_file($_FILES["docs"]["tmp_name"], $nomFichier);					
 		
 		// 3. Exécution
@@ -94,5 +96,4 @@ $data .= "\n";
 fwrite($handle, $data);
 fclose($handle);
 
-	
 ?>	  			
