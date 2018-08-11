@@ -37,16 +37,11 @@ $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
 // $mail->Username = "username@gmail.com";
-$mail->Username = "lilamaneza@gmail.com";
+$mail->Username = "username@gmail.com";
 
 //Password to use for SMTP authentication
 // $mail->Password = "yourpassword";
 
-//Formulaire crée par Lil
-// pour introduire mot de passe de gmail
-// require 'formulaireMDP.php';
-$password = 'MickeyG0628';
-// $password = 'M....G...8';
 $mail->Password = $password;
 unset($password);
  //The unset line of code is putting the $password variable back to null which means it exists only long enough to be passed to the mail object and no longer.
@@ -54,15 +49,15 @@ unset($password);
 
 //Set who the message is to be sent from : Définir l'expéditeur du message
 // $mail->setFrom('from@example.com', 'First Last');
-$mail->setFrom('lilamaneza@gmail.com', 'Lili Maneza');
+$mail->setFrom('from@example.com', 'First Last');
 
 //Set an alternative reply-to address
 // $mail->addReplyTo('replyto@example.com', 'First Last');
-$mail->addReplyTo('lilamaneza@gmail.com', 'First Last');
+$mail->addReplyTo('replyto@example.com', 'First Last');
 
 //Set who the message is to be sent to
 // $mail->addAddress('whoto@example.com', 'John Doe');
-$mail->addAddress('lilianemamane@gmail.com', 'John Doe');
+$mail->addAddress('whoto@example.com', 'John Doe');
 
 //Set the subject line
 $mail->Subject = 'PHPMailer GMail SMTP test';
@@ -70,7 +65,7 @@ $mail->Subject = 'PHPMailer GMail SMTP test';
 //Read an HTML message body from an external file, convert referenced images to embedded, 
 //convert HTML into a basic plain-text alternative body
 // $mail->msgHTML(file_get_contents('contents.html'), _DIR_);
-$mail->msgHTML(file_get_contents('contact3.php'), dirname(__FILE__));
+//$mail->msgHTML(file_get_contents('contact3.php'), dirname(__FILE__));
 
 // echo "<pre>";
 // var_dump(file_get_contents('contact3.php'));
