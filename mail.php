@@ -39,6 +39,9 @@ $mail->SMTPAuth = true;
 
 if (file_exists('partiels/mdp.php')) {
 		include 'partiels/mdp.php';
+} else {
+	getenv('Password');
+	getenv('Username');
 }
 
 // Adresse mail expéditeur = le site
