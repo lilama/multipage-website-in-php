@@ -40,9 +40,14 @@ $mail->SMTPAuth = true;
 if (file_exists('partiels/mdp.php')) {
 		include 'partiels/mdp.php';
 } else {
-	getenv('Password');
-	getenv('Username');
+	//Username to use for SMTP authentication — use full email address for gmail
+	$mail->Username = getenv('Username');
+	//Password to use for SMTP authentication
+	$mail->Password = getenv('Password');
+	unset($password);
+ 	//The unset line of code is putting the $password variable back to null which means it exists only long enough to be passed to the mail object and no longer.
 }
+
 
 // Adresse mail expéditeur = le site
 $mail->setFrom('challengesbecode@gmail.com', "La Chomhier AID");
