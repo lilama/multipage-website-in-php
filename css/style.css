@@ -1,0 +1,103 @@
+/*Minimize css*/
+  body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0px 10px 0px 10px;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+/*Header style*/
+.nav-wrapper {
+	height: 140px!important;
+	background-color: #ff7a28;
+	padding-right: 100px;
+}
+
+.nav-wrapper ul a {
+	color: black;
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+.nav-wrapper img {
+	margin: 30px 20px 0px 50px;
+}
+
+.nav-content {
+	background-color: #ff7a28;
+	padding-bottom: 20px!important;
+}
+
+.nav-content .main-quote {
+	font-size: 15px;
+	color: black;
+	margin-left: 40px;
+	font-style: italic;
+}
+
+/*Footer style*/
+footer {background-color: #ff7a28!important;}
+
+footer ul {
+	display: flex;
+	align-items: baseline;
+}
+
+@media screen and (max-width: 600px) {
+	footer ul {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+footer ul li {padding: 5px;}
+
+/*Main page*/
+.overlay {
+  width: 100%;
+}
+
+.overlay a {color: #FFFFFF;}
+
+.h100 {
+  height: 100%;
+}
+
+.description, .page-contact {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+h2, h3 {    
+	color: #EFA00B;
+}
+
+/*Contact*/
+#googlemap {
+	margin-left: 45%;
+	margin-top: -25px;
+}
+
+.form {
+	width: 50%;
+}
+@media screen and (max-width: 900px) {
+	.form {width: 100%;}
+}
+
+.parallax-container {height: 400px!important;}
+
+.radio_button {
+	padding-right: 20px;
+	margin-left: 10px;
+}
+
+.btn-file {margin-left: 10px;}
+
+.btn-submit {margin-top: 20px;}
+
