@@ -120,7 +120,7 @@
 	    			<input id="html" value="HTML" type="radio" id="html" name="formatRep" checked/>    
 					<span for="html">HTML</span>
 				</label>
-				<label class="radio_button" for="texte">>
+				<label class="radio_button" for="texte">
 	    			<input id="texte" type="radio" id="texte" name="formatRep" value="texte"/>
 					<span for="texte">Texte</span>
 				</label>
